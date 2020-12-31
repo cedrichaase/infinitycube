@@ -35,6 +35,9 @@ module BracePerimeter(hasCutouts=false) {
     // other cathete
     b1 = h1 * tan(d2);
 
+    // hypothenuse
+    c1 = h1 / cos(d2);
+
 
     //
     // D2: big triangle
@@ -67,7 +70,7 @@ module BracePerimeter(hasCutouts=false) {
 
     assert((hc1 * 2) > w_led, "Not enough space for LED strip.");
 
-    translate([0, c2, 0]) rotate(d2 + 180) union () {
+    translate([0, c2 - c1 / 2, 0]) rotate(d2 + 180) union () {
         difference() {
             polygon([[0, 0], [b2, 0], [b2, h2]]); // D2
             polygon([[0, 0], [b1, 0], [b1 - q0, hc0]]); // D1

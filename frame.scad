@@ -46,6 +46,9 @@ module BracePerimeter(hasCutouts=false) {
     // cathete touching angle d2 (outer edge)
     h2 = b2 * (1 / tan(d2));
 
+    // hypothenuse
+    c2 = h2 / cos(d2);
+
     // 
     // C: cutout for acrylic plate
     //
@@ -64,18 +67,18 @@ module BracePerimeter(hasCutouts=false) {
 
     assert((hc1 * 2) > w_led, "Not enough space for LED strip.");
 
-    union () {
+    translate([0, c2, 0]) rotate(d2 + 180) union () {
         difference() {
             polygon([[0, 0], [b2, 0], [b2, h2]]); // D2
             polygon([[0, 0], [b1, 0], [b1 - q0, hc0]]); // D1
-            polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
+            if (hasCutouts) polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
         }
 
         mirror(n) {
             difference() {
                 polygon([[0, 0], [b2, 0], [b2, h2]]); // D2
                 polygon([[0, 0], [b1, 0], [b1 -q0, hc0]]); // D1
-                polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
+                if (hasCutouts) polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
             }
         }
     }
@@ -85,5 +88,5 @@ module Brace(length) {
     linear_extrude(length) BracePerimeter(true);
 }
 
-* Brace(l);
+BracePerimeter(false);
 

@@ -88,5 +88,6 @@ module Brace(length) {
     linear_extrude(length) BracePerimeter(true);
 }
 
-BracePerimeter(false);
-
+module BraceFitting(length) {
+    linear_extrude(length) BracePerimeter(false);
+}

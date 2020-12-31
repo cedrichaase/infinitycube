@@ -68,14 +68,14 @@ module BracePerimeter(hasCutouts=false) {
         difference() {
             polygon([[0, 0], [b2, 0], [b2, h2]]); // D2
             polygon([[0, 0], [b1, 0], [b1 - q0, hc0]]); // D1
-            polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]);
+            polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
         }
 
         mirror(n) {
             difference() {
                 polygon([[0, 0], [b2, 0], [b2, h2]]); // D2
                 polygon([[0, 0], [b1, 0], [b1 -q0, hc0]]); // D1
-                polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]);
+                polygon([[cx, 0], [cx, ad], [cx + a, ad], [cx + a, 0]]); // cutout for acrylic plate
             }
         }
     }

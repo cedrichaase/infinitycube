@@ -27,6 +27,7 @@ This might not be comprehensive; if anything is missing, feel free to drop me a 
 - A jigsaw or something else that cuts acrylic plates to size
 - A spray bottle with some soapy water
 - A credit card or something similar for squeegeeing purposes
+- A box cutter knife
 
 
 ## Assembly
@@ -49,7 +50,7 @@ will sit inside the frame pieces anyway.
 Stick adhesive, semi-transparent mirror foil to the faces.
 Use a spray bottle to cover the faces as well as the sticky side of the foil in soapy water.
 You can then position it and squeegee out the water from between the foil and the acrylic plate.
-Cut off any excess foil; make sure to leave a little border of the acrylic plates uncovered by foil, up to the depth they will sit inside the frame pieces.
+Cut off any excess foil using a box cutter knife or similar; make sure to leave a little border of the acrylic plates uncovered by foil, up to the depth they will sit inside the frame pieces.
 If you don't, the foil might peel off when you push the acrylic plates into the frame pieces. 
 
 Now, the prerequisites for the case are complete.

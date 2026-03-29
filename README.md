@@ -4,7 +4,7 @@ Models and documentation for creating DIY infinity cubes.
 
 Inspired by: infinitycubez.de
 
-## Basic structure / idea
+## Assembly
 
 ### Frame assembly
 
@@ -17,6 +17,9 @@ Connect the frame pieces via the corner pieces by sliding them in; no glue or sc
 Cut acrylic plates to size to make up the faces of the dodecahedron.
 I found it helpful to first make a template for cutting the acrylic plates.
 You can either 3D print this or make one out of thin wood (or acrylic even).
+I then used a jigsaw to cut out the faces.
+You have quite some tolerance to work with here, as a couple of millimeters of the face edges
+will sit inside the frame pieces anyway.
 
 Stick adhesive, semi-transparent mirror foil to the faces.
 Use a spray bottle to cover the faces as well as the sticky side of the foil in soapy water.

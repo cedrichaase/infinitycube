@@ -4,6 +4,8 @@ Models and documentation for creating DIY infinity cubes.
 
 Inspired by: infinitycubez.de
 
+![infinitycube](infinitycube.png "Infinitycube example build")
+
 ## Assembly
 
 ### Frame assembly

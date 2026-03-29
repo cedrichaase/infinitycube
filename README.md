@@ -1,8 +1,8 @@
-# Infinity Cube
+# Infinitycube
 
-Models and documentation for creating DIY infinity cubes.
+Models and documentation for creating DIY infinitycubes.
 
-Inspired by: infinitycubez.de
+Inspired by some people at a Chaos Communication Congress booth who built an impressively overengineered version of this (formerly found at infinitycubez.de).
 
 ![infinitycube](infinitycube.png "Infinitycube example build")
 

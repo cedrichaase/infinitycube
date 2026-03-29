@@ -18,6 +18,7 @@ This might not be comprehensive; if anything is missing, feel free to drop me a 
 - Black heatshrink tubing
 - Some wire
 - Some solder
+- 2 component epoxy glue (~15 min curing)
 
 ## Required tools
 

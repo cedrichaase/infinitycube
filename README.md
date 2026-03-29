@@ -6,6 +6,29 @@ Inspired by some people at a Chaos Communication Congress booth who built an imp
 
 ![infinitycube](infinitycube.png "Infinitycube example build")
 
+## Part list
+
+This might not be comprehensive; if anything is missing, feel free to drop me a line!
+
+- Acrylic plates (3mm thickness)
+- Semi-transparent adhesive mirror foil
+- 1kg or so of your favourite PETG 3D printer filament :)
+- Adressable RGB LED strips with black PCB, 144 LEDs per meter (WS2812B or similar)
+- Controller for the RGB LED strips (sometimes the LED strips ship with one, but feel free to make your own using an ESP 32 or something similar)
+- Black heatshrink tubing
+- Some wire
+- Some solder
+
+## Required tools
+
+- A 3D printer
+- A soldering iron
+- A lighter, heat gun or something else to apply the heatshrink tubing
+- A jigsaw or something else that cuts acrylic plates to size
+- A spray bottle with some soapy water
+- A credit card or something similar for squeegeeing purposes
+
+
 ## Assembly
 
 ### Frame assembly
